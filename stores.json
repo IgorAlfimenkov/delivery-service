@@ -1,0 +1,187 @@
+[ {
+  "name" : "Adidas Store",
+  "products" : [ {
+    "id" : 0,
+    "type" : "Cap",
+    "name" : "Originals Cap",
+    "brand" : "Adidas",
+    "color" : "White",
+    "price" : 39.99,
+    "size" : 30.0,
+    "quantity" : 9
+  }, {
+    "id" : 1,
+    "type" : "Sneakers",
+    "name" : "Stan Smith",
+    "brand" : "Adidas",
+    "color" : "Red",
+    "price" : 85.0,
+    "size" : 9.5,
+    "quantity" : 25
+  }, {
+    "id" : 2,
+    "type" : "Sneakers",
+    "name" : "Superstar",
+    "brand" : "Adidas",
+    "color" : "black/white",
+    "price" : 95.0,
+    "size" : 8.0,
+    "quantity" : 15
+  }, {
+    "id" : 3,
+    "type" : "Jacket",
+    "name" : "Winter Jacket",
+    "brand" : "Adidas",
+    "color" : "Grey",
+    "price" : 200.0,
+    "size" : 40.0,
+    "quantity" : 15
+  } ],
+  "categories" : [ {
+    "name" : "Summer",
+    "products" : [ {
+      "id" : 2,
+      "type" : "Sneakers",
+      "name" : "Superstar",
+      "brand" : "Adidas",
+      "color" : "black/white",
+      "price" : 95.0,
+      "size" : 8.0,
+      "quantity" : 15
+    }, {
+      "id" : 1,
+      "type" : "Sneakers",
+      "name" : "Stan Smith",
+      "brand" : "Adidas",
+      "color" : "Red",
+      "price" : 85.0,
+      "size" : 9.5,
+      "quantity" : 25
+    } ]
+  }, {
+    "name" : "Winter",
+    "products" : [ {
+      "id" : 3,
+      "type" : "Jacket",
+      "name" : "Winter Jacket",
+      "brand" : "Adidas",
+      "color" : "Grey",
+      "price" : 200.0,
+      "size" : 40.0,
+      "quantity" : 15
+    } ]
+  } ]
+}, {
+  "name" : "Nike Store",
+  "products" : [ {
+    "id" : 0,
+    "type" : "Shorts",
+    "name" : "Dry-Fit Shorts",
+    "brand" : "Nike",
+    "color" : "Grey",
+    "price" : 44.99,
+    "size" : 38.0,
+    "quantity" : 8
+  }, {
+    "id" : 1,
+    "type" : "Sneakers",
+    "name" : "Air Force 1",
+    "brand" : "Nike",
+    "color" : "White",
+    "price" : 100.0,
+    "size" : 7.5,
+    "quantity" : 9
+  }, {
+    "id" : 2,
+    "type" : "Sportswear",
+    "name" : "Tech-Fleece Jacket",
+    "brand" : "Nike",
+    "color" : "Black",
+    "price" : 135.99,
+    "size" : 36.0,
+    "quantity" : 10
+  } ],
+  "categories" : [ {
+    "name" : "Sport",
+    "products" : [ {
+      "id" : 1,
+      "type" : "Sneakers",
+      "name" : "Air Force 1",
+      "brand" : "Nike",
+      "color" : "White",
+      "price" : 100.0,
+      "size" : 7.5,
+      "quantity" : 50
+    }, {
+      "id" : 2,
+      "type" : "Sportswear",
+      "name" : "Tech-Fleece Jacket",
+      "brand" : "Nike",
+      "color" : "Black",
+      "price" : 135.99,
+      "size" : 36.0,
+      "quantity" : 10
+    }, {
+      "id" : 0,
+      "type" : "Shorts",
+      "name" : "Dry-Fit Shorts",
+      "brand" : "Nike",
+      "color" : "Grey",
+      "price" : 44.99,
+      "size" : 38.0,
+      "quantity" : 8
+    } ]
+  } ]
+}, {
+  "name" : "Street Beat",
+  "products" : [ {
+    "id" : 0,
+    "type" : "Sneakers",
+    "name" : "Air Force 1",
+    "brand" : "Nike",
+    "color" : "White",
+    "price" : 94.99,
+    "size" : 8.0,
+    "quantity" : 23
+  }, {
+    "id" : 1,
+    "type" : "Sneakers",
+    "name" : "Superstar",
+    "brand" : "Adidas",
+    "color" : "White",
+    "price" : 80.0,
+    "size" : 6.0,
+    "quantity" : 15
+  }, {
+    "id" : 2,
+    "type" : "Jacket",
+    "name" : "Evo Puffer",
+    "brand" : "Puma",
+    "color" : "Red",
+    "price" : 170.0,
+    "size" : 40.0,
+    "quantity" : 8
+  } ],
+  "categories" : [ {
+    "name" : "Classic sneakers",
+    "products" : [ {
+      "id" : 0,
+      "type" : "Sneakers",
+      "name" : "Air Force 1",
+      "brand" : "Nike",
+      "color" : "White",
+      "price" : 94.99,
+      "size" : 8.0,
+      "quantity" : 23
+    }, {
+      "id" : 1,
+      "type" : "Sneakers",
+      "name" : "Superstar",
+      "brand" : "Adidas",
+      "color" : "White",
+      "price" : 80.0,
+      "size" : 6.0,
+      "quantity" : 15
+    } ]
+  } ]
+} ]

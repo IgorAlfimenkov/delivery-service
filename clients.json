@@ -1,0 +1,19 @@
+[ {
+  "name" : "Igor Alfimenkov",
+  "address" : "Yuzhnaya 20",
+  "email" : "igoralfimenkov@gmail.com",
+  "index" : 230019,
+  "phone" : "+375297811411"
+}, {
+  "name" : "Ivan Ivanov",
+  "address" : "Sovetskaya 56",
+  "email" : "Ivan Petrov",
+  "index" : 230011,
+  "phone" : "+375295698234"
+}, {
+  "name" : "Matvey Ganevich",
+  "address" : "Dovatora 19",
+  "email" : "itsnotganeva@gmail.com",
+  "index" : 238901,
+  "phone" : "+375298881878"
+} ]
