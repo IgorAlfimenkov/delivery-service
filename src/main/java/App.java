@@ -217,6 +217,12 @@ public class App {
                         switch (num1)
                         {
                             case (1):
+                                System.out.println("Not available id: ");
+                                for (Product p : store1.getProducts()) {
+                                    System.out.println(p.getId());
+                                }
+                                System.out.println("Enter product id: ");
+                                int productid = Integer.parseInt(in.nextLine());
                                 System.out.println("Available types: ");
                                 for (ProductType type : ProductType.values() ) {
                                     System.out.println(type.toString());
@@ -235,7 +241,7 @@ public class App {
                                 double size = Double.parseDouble(in.nextLine());
                                 System.out.println("Enter quantity: ");
                                 int quantity = Integer.parseInt(in.nextLine());
-                                Product product = new Product(type, productName, brand, color, price, size, quantity);
+                                Product product = new Product(productid,type, productName, brand, color, price, size, quantity);
                                 service.addProduct(store1,product);
                                 break;
 
@@ -298,15 +304,6 @@ public class App {
                                 System.out.println("Enter product id: ");
                                 int id = Integer.parseInt(in.nextLine());
                                 Product editProduct = service.getProduct(store1,id);
-                                System.out.println("1 - Edit product type.\n" +
-                                        "2 - Edit product name.\n" +
-                                        "3 - Edit product brand.\n" +
-                                        "4 - Edit product color.\n" +
-                                        "5 - Edit product price.\n" +
-                                        "6 - Edit product size.\n" +
-                                        "7 - Edit product quantity.\n" +
-                                        "0 - Return");
-
                                 int exit3 = 1;
                                 while (exit3 == 1) {
 
